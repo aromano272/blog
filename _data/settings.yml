@@ -1,0 +1,37 @@
+#-------------------------------
+# General Site Settings
+title: Amazing Blog
+email: andre.romano272@hotmail.com
+description: The best blog in zeh interwebs
+
+
+#-------------------------------
+# SEO Optimization
+
+# NOTE: Providing SEO information will make this website more searchable on the internets
+
+seo:
+  description: "A blog about the life changing journey of a up and coming web developer"
+  rel-author: ""
+  rel-publisher: ""
+
+
+#-------------------------------
+#Example of a list
+
+example: 
+  - 
+    name: example
+    url: example
+  - 
+    name: example
+    url: example
+  - 
+    name: example
+    url: example
+  - 
+    name: example
+    url: example
+
+
+
