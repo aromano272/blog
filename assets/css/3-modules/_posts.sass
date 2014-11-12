@@ -5,7 +5,7 @@
 
 .posts__item
   position: relative
-  margin: 0 auto
+  margin: 20px auto
   width: 95%
   padding: 10px
   background: $postBg
@@ -42,20 +42,42 @@
   font:
     family: "Open Sans", sans-serif
     size: 1.1em
+  
+  a
+    font-weight: bold
+    font-size: 0.95em
+  
+  abbr
+    text-decoration: none
+    border-bottom: none
+    font-weight: bold
+    color: #505050
+
+  p ~ ul
+    margin-top: -15px
 
   ul
     margin: 0
     padding: 0
+    color: #707070
+    font-size: 0.95em
 
     li
       position: relative
-      padding: 0 0 10px 10px
+      padding: 0 0 10px 15px
 
     li:before
       content: ""
       position: absolute
       width: 10px
-      height: 4px
-      top: 10px
-      left: -5px
+      height: 3px
+      top: 11px
+      left: 0px
       background: #ddd
+
+    li:last-child
+      padding-bottom: 15px
+
+
+
+
